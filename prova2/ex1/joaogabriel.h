@@ -1,0 +1,4 @@
+#ifndef JOAOGABRIEL_H_INCLUDED
+#define JOAOGABRIEL_H_INCLUDED
+float calculo (int);
+#endif // JOAOGABRIEL_H_INCLUDED
