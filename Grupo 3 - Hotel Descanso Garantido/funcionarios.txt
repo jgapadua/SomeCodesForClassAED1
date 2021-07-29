@@ -1,0 +1,6 @@
+Funcionarios:
+codigo= 45
+nome= Beatriz Fernandes
+telefone= (31) 9 8568-5846
+cargo= Garcom    salario= R$1500.00
+

@@ -1,0 +1,8 @@
+Estadias:
+codigo= 0
+data entrada= 12/5/2020
+data saida= 22/5/2020
+quantidade de diarias= 10
+codigo do cliente= 48
+numero do quarto= 8
+

@@ -1,0 +1,6 @@
+Clientes:
+codigo= 48
+nome= Ana Carolina Mendon‡a
+endereco= Rua Claudio Manoel, 125 - Funcion rios - Belo Horizonte/MG - 31.303-205
+telefone= (31) 9 9758-4063
+
