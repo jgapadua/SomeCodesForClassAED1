@@ -42,7 +42,7 @@ printf("alterando o arquivo...\n");
 altera_arquivo(f);
 break;
 case 'c':
-printf("imprImindo o arquivo...\n");
+printf("imprimindo o arquivo...\n");
 imprime_arquivo(f);
 system("pause");
 break;
