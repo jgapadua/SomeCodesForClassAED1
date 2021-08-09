@@ -7,13 +7,13 @@
 void letra_a(){
     FILE* arq = fopen(nomeArq, "w");
 
-    float sequencia[TAM];
+    int sequencia[TAM];
     sequencia[0] = sequencia[1] = 1;
 
-    fprintf(arq, "%f %f", sequencia[0], sequencia[1]);
+    fprintf(arq, "%d %d", sequencia[0], sequencia[1]);
     for(int i=2; i<TAM; i++){
         sequencia[i] = sequencia[i-1] + sequencia[i-2];
-        fprintf(arq, " %.0f", sequencia[i]);
+        fprintf(arq, " %d", sequencia[i]);
     }
 
     fclose(arq);
@@ -83,17 +83,17 @@ bool primo(int n){
 void letra_e(){
     FILE* arq = fopen(nomeArq, "r");
     FILE* out = fopen("arquivo_c.txt", "w");
-    float primos[TAM];
+    int primos[TAM];
     int contador = 0;
 
     for(int i=0; i<TAM; i++){
-        float lido;
-        fscanf(arq, "%f", &lido);
+        int lido;
+        fscanf(arq, "%d", &lido);
 
         if(primo(lido)){
             primos[contador++] = lido;
-            printf("%.0f ", lido);
-            fprintf(out, "%.0f ", lido);
+            printf("%d ", lido);
+            fprintf(out, "%d ", lido);
         }
     }
 
